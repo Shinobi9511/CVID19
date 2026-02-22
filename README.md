@@ -36,8 +36,9 @@ The application provides:
 - Real-time prediction output
 
 ---
-
 ## 📁 Project Structure
+
+```text
 covid19-streamlit-app/
 │
 ├── app.py
@@ -52,7 +53,7 @@ covid19-streamlit-app/
 │
 └── notebooks/
     └── COVID19.ipynb
----
+```
 
 ## ⚙️ Installation (Local Setup)
 
