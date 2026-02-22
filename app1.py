@@ -12,7 +12,7 @@ st.set_page_config(page_title="COVID-19 Analytics Dashboard", layout="wide")
 # =========================
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/covid19_global_statistics_2026.csv")
+    df = pd.read_csv(r"data/covid19_global_statistics_2026.csv")
     df.columns = df.columns.str.lower().str.replace(" ", "_")
     return df
 
@@ -175,4 +175,5 @@ with st.expander("Enter Custom Input for Prediction"):
 # ======================================================
 st.subheader("📂 View Filtered Dataset")
 st.dataframe(filtered_df)
+
 
