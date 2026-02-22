@@ -47,8 +47,11 @@ covid19-streamlit-app/
 ├── data/
 │   └── covid19_global_statistics_2026.csv
 │
-└── model/
-    └── best_model.pkl
+├── model/
+│   └── best_model.pkl
+│
+└── notebooks/
+    └── COVID19.ipynb
 ---
 
 ## ⚙️ Installation (Local Setup)
