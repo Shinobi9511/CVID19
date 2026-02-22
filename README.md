@@ -54,28 +54,34 @@ covid19-streamlit-app/
 └── notebooks/
     └── COVID19.ipynb
 ```
-
 ## ⚙️ Installation (Local Setup)
 
-1. Clone the repository:
+### 1️⃣ Clone the Repository
 
-
-git clone <your-repo-link>
+```bash
+git clone <your-repository-link>
 cd covid19-streamlit-app
+```
 
+### 2️⃣ Create Virtual Environment (Recommended)
 
-2. Install dependencies:
+```bash
+python -m venv venv
+venv\Scripts\activate      # For Windows
+# source venv/bin/activate # For Mac/Linux
+```
 
+### 3️⃣ Install Dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
+### 4️⃣ Run the Application
 
-3. Run the application:
-
-
+```bash
 streamlit run app.py
-
-
+```
 ---
 
 ## 🌐 Deployment (Streamlit Cloud)
