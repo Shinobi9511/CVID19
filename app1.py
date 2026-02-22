@@ -23,7 +23,7 @@ df = load_data()
 # =========================
 @st.cache_resource
 def load_model():
-    return joblib.load("model/best_model.pkl")
+    return joblib.load("models/best_model.pkl")
 
 model = load_model()
 
@@ -175,3 +175,4 @@ with st.expander("Enter Custom Input for Prediction"):
 # ======================================================
 st.subheader("📂 View Filtered Dataset")
 st.dataframe(filtered_df)
+
