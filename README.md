@@ -38,22 +38,17 @@ The application provides:
 ---
 
 ## 📁 Project Structure
-covid19-global-analytics/
+covid19-streamlit-app/
 │
-├── app.py                         # Main Streamlit application
-├── requirements.txt               # Project dependencies
-├── README.md                      # Project documentation
+├── app.py
+├── requirements.txt
+├── README.md
 │
-├── data/                          # Dataset folder
+├── data/
 │   └── covid19_global_statistics_2026.csv
 │
-├── model/                         # Trained ML models
-│   └── best_model.pkl
-│
-├── notebooks/                     # Jupyter notebooks (EDA & training)
-│   └── COVID19.ipynb
-
-
+└── model/
+    └── best_model.pkl
 ---
 
 ## ⚙️ Installation (Local Setup)
